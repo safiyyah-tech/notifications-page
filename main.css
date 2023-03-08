@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(246, 246, 255);
+    opacity: 1;
+}
+
+.container{
+    background-color: white;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 35px;
+    border-radius: 8px;
+}
+
+/* The nav-box styling */
+
+.nav-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+}
+
+.nav-notification{
+    display: flex;
+    gap: 5px;
+}
+
+.nav-noti{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.nav-number{
+    background-color: navy;
+    color: white;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.nav-gray{
+    color: rgb(187, 183, 183);
+}
+
+.hover a {
+    text-decoration: none;
+    color: rgb(153, 152, 152);
+}
+
+/* The notification styling of unread messages */
+
+.Notification1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(246, 246, 255);
+    opacity: 1;
+    gap: 15px;
+    color: rgb(48, 45, 45);
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+
+.Notification1-img{
+    width: 55px;
+    height: 55px;
+}
+
+.Notification1-time{
+    color: rgb(148, 146, 146);
+}
+
+.bold-dark{
+    font-weight: bolder;
+}
+
+.bold-gray{
+    color: rgb(92, 91, 91);
+    font-weight: bold;
+}
+
+.bold-blue{
+    color: rgb(12, 12, 134);
+    font-weight: bold;
+}
+
+/* Notification styling of read messages */
+
+.Notification2{
+    display: flex;
+    opacity: 1;
+    gap: 15px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+}
+
+.Notification2-img{
+    width: 55px;
+    height: 55px;
+}
+
+.Notification2-msg{
+    align-items: center;
+}
+
+.Notification2-oldmsg{
+    color: rgb(99, 98, 98);
+    padding: 20px 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: 1px rgb(229, 229, 253) solid;
+    border-radius: 6px;
+}
+
+.Notification2-oldmsg:hover{
+    background-color: rgb(222, 222, 245);
+    cursor: pointer;
+}
+
+.Notification2-msgflex{
+    display: flex;
+    gap: 20px;
+}
